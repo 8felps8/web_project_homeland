@@ -1,0 +1,81 @@
+.place {
+  display: grid;
+  grid-template-areas:
+    "title website"
+    "image description"
+    "button description";
+  grid-template-columns: 460fr 484fr;
+  grid-template-rows: auto auto 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.place__title {
+  grid-area: title;
+  margin: 0;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06;
+}
+.place__website {
+  grid-area: website;
+  align-self: end;
+}
+.place__url-heading {
+  margin: 0 0 8px;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.place__artist {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.place__image {
+  grid-area: image;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.place__image:hover {
+  filter: brightness(50%);
+}
+
+.place__description {
+  grid-area: description;
+  display: grid;
+  row-gap: 25px;
+}
+
+.place__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__button {
+  grid-area: button;
+  align-self: start;
+  justify-self: start;
+  padding: 15px 20px;
+  border-radius: 4px;
+  background-image: linear-gradient(90deg, #0278fe, #003a7b);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.place__button:hover {
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+}
