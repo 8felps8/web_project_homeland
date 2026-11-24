@@ -3,3 +3,17 @@
   row-gap: 80px;
   padding: 92px 148px 0;
 }
+
+@media (max-width: 1024px) {
+  .places {
+    row-gap: 72px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width: 544px) {
+  .places {
+    row-gap: 50px;
+    padding: 62px 0 0;
+  }
+}

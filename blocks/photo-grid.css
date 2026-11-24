@@ -11,3 +11,18 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 64px 24px 0;
+  }
+}
+
+@media (max-width: 544px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 40px 16px 0;
+  }
+}
