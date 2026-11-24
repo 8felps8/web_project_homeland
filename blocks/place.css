@@ -17,10 +17,12 @@
   font-weight: 900;
   line-height: 1.06;
 }
+
 .place__website {
   grid-area: website;
   align-self: end;
 }
+
 .place__url-heading {
   margin: 0 0 8px;
   color: #aaa;
@@ -43,6 +45,17 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.place__image_empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #c4c4c4;
+  color: #000;
+  font-size: 18px;
+  line-height: 1.63;
 }
 
 .place__image:hover {
