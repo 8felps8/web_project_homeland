@@ -14,7 +14,7 @@ O layout é responsivo e segue o design do Figma em três larguras de tela:
 
 ## Tecnologias e técnicas utilizadas
 
-- HTML5 semântico (`header`, `main`, `section`, `blockquote`, `footer`)
+- HTML5 semântico
 - CSS3 com Flexbox
 - Design responsivo com media queries nos pontos de interrupção 1024px e 544px
 - Valores relativos (`%`, `aspect-ratio`) e `object-fit` para a imagem se
